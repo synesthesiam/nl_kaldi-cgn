@@ -1,0 +1,260 @@
+{
+  "statistics": {
+    "num_wavs": 10,
+    "num_words": 84,
+    "num_entities": 0,
+    "correct_transcriptions": 0,
+    "correct_intent_names": 0,
+    "correct_words": 75,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.8928571428571429,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 8.924291422180499
+  },
+  "actual": {
+    "nl-0434.wav": {
+      "text": "de akoestiek van het amfitheater was overweldigend ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002951622009277344,
+      "transcribe_seconds": 0.7453277111053467,
+      "wav_seconds": 8,
+      "likelihood": 2.0740573406219482,
+      "word_error": {
+        "expected": "de  akoestiek van het amfitheater was overweldigend",
+        "actual": "de  akoestiek van het amfitheater was overweldigend",
+        "words": 7,
+        "correct": 7,
+        "errors": 0
+      }
+    },
+    "nl-0438.wav": {
+      "text": "kan in artiest ook auteursrecht hebben op in improvisatie ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.170967102050781e-05,
+      "transcribe_seconds": 0.867283821105957,
+      "wav_seconds": 7.75,
+      "likelihood": 1.8747004270553589,
+      "word_error": {
+        "expected": "kan EEN artiest ook auteursrecht hebben op  EEN improvisatie",
+        "actual": "kan IN  artiest ook auteursrecht hebben op  IN  improvisatie",
+        "words": 9,
+        "correct": 7,
+        "errors": 2
+      }
+    },
+    "nl-0439.wav": {
+      "text": "de beste plaatsen vooraan waren voor de hoogwaardigheidsbekleders ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001926422119140625,
+      "transcribe_seconds": 0.84413743019104,
+      "wav_seconds": 6.875,
+      "likelihood": 1.8302068710327148,
+      "word_error": {
+        "expected": "de  beste plaatsen vooraan waren voor de  hoogwaardigheidsbekleders",
+        "actual": "de  beste plaatsen vooraan waren voor de  hoogwaardigheidsbekleders",
+        "words": 8,
+        "correct": 8,
+        "errors": 0
+      }
+    },
+    "nl-0441.wav": {
+      "text": "zes plus één is zeven ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00018978118896484375,
+      "transcribe_seconds": 0.5135829448699951,
+      "wav_seconds": 5.625,
+      "likelihood": 1.9034037590026855,
+      "word_error": {
+        "expected": "zes plus EEN   is  zeven",
+        "actual": "zes plus ééN is  zeven",
+        "words": 5,
+        "correct": 4,
+        "errors": 1
+      }
+    },
+    "nl-0433.wav": {
+      "text": "is het bewolkt de schouwburg in synoniem voor theater ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001995563507080078,
+      "transcribe_seconds": 0.7631738185882568,
+      "wav_seconds": 6.875,
+      "likelihood": 1.8346717357635498,
+      "word_error": {
+        "expected": "is  het ***     WOORD schouwburg EEN synoniem voor theater",
+        "actual": "is  het BEWOLKT DE    schouwburg IN  synoniem voor theater",
+        "words": 8,
+        "correct": 6,
+        "errors": 3
+      }
+    },
+    "nl-0436.wav": {
+      "text": "die grote scandinavische sauna in de achtertuin was zonder vergunning gebouwd ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00019097328186035156,
+      "transcribe_seconds": 1.1148061752319336,
+      "wav_seconds": 7.75,
+      "likelihood": 1.8257250785827637,
+      "word_error": {
+        "expected": "DE  grote scandinavische sauna in  de  achtertuin was zonder vergunning gebouwd",
+        "actual": "DIE grote scandinavische sauna in  de  achtertuin was zonder vergunning gebouwd",
+        "words": 11,
+        "correct": 10,
+        "errors": 1
+      }
+    },
+    "nl-0432.wav": {
+      "text": "dit handboek is vooral bestemd voor het wetenschappelijk onderwijs ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0003490447998046875,
+      "transcribe_seconds": 0.6846849918365479,
+      "wav_seconds": 6.75,
+      "likelihood": 1.9180610179901123,
+      "word_error": {
+        "expected": "dit handboek is  vooral bestemd voor het wetenschappelijk onderwijs",
+        "actual": "dit handboek is  vooral bestemd voor het wetenschappelijk onderwijs",
+        "words": 9,
+        "correct": 9,
+        "errors": 0
+      }
+    },
+    "nl-0435.wav": {
+      "text": "de hoogte van de gevel is vijftien meter ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00024628639221191406,
+      "transcribe_seconds": 0.6267726421356201,
+      "wav_seconds": 5.5,
+      "likelihood": 1.937933087348938,
+      "word_error": {
+        "expected": "de  hoogte van de  gevel is  vijftien meter",
+        "actual": "de  hoogte van de  gevel is  vijftien meter",
+        "words": 8,
+        "correct": 8,
+        "errors": 0
+      }
+    },
+    "nl-0440.wav": {
+      "text": "zijn recente daden komen mij onvoldoende doordacht vroeg ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 4.7206878662109375e-05,
+      "transcribe_seconds": 0.9293651580810547,
+      "wav_seconds": 6.75,
+      "likelihood": 1.8418693542480469,
+      "word_error": {
+        "expected": "zijn recente daden komen mij onvoldoende doordacht VOOR",
+        "actual": "zijn recente daden komen mij onvoldoende doordacht VROEG",
+        "words": 8,
+        "correct": 7,
+        "errors": 1
+      }
+    },
+    "nl-0437.wav": {
+      "text": "deze bepaling stel nadere eisen aan de ontbinding van in vaststellingsovereenkomst ",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00019669532775878906,
+      "transcribe_seconds": 1.0151324272155762,
+      "wav_seconds": 8.75,
+      "likelihood": 1.8560457229614258,
+      "word_error": {
+        "expected": "deze bepaling STELT nadere eisen aan de  ontbinding van EEN vaststellingsovereenkomst",
+        "actual": "deze bepaling STEL  nadere eisen aan de  ontbinding van IN  vaststellingsovereenkomst",
+        "words": 11,
+        "correct": 9,
+        "errors": 2
+      }
+    }
+  },
+  "expected": {
+    "nl-0434.wav": {
+      "text": "de akoestiek van het amfitheater was overweldigend"
+    },
+    "nl-0438.wav": {
+      "text": "kan een artiest ook auteursrecht hebben op een improvisatie"
+    },
+    "nl-0439.wav": {
+      "text": "de beste plaatsen vooraan waren voor de hoogwaardigheidsbekleders"
+    },
+    "nl-0441.wav": {
+      "text": "zes plus een is zeven"
+    },
+    "nl-0433.wav": {
+      "text": "is het woord schouwburg een synoniem voor theater"
+    },
+    "nl-0436.wav": {
+      "text": "de grote scandinavische sauna in de achtertuin was zonder vergunning gebouwd"
+    },
+    "nl-0432.wav": {
+      "text": "dit handboek is vooral bestemd voor het wetenschappelijk onderwijs"
+    },
+    "nl-0435.wav": {
+      "text": "de hoogte van de gevel is vijftien meter"
+    },
+    "nl-0440.wav": {
+      "text": "zijn recente daden komen mij onvoldoende doordacht voor"
+    },
+    "nl-0437.wav": {
+      "text": "deze bepaling stelt nadere eisen aan de ontbinding van een vaststellingsovereenkomst"
+    }
+  }
+}

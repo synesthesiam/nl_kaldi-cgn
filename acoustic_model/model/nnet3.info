@@ -1,0 +1,27 @@
+[Sources]
+
+[Train Steps]
+
+[Graph_options]
+--self-loop-scale 1.0
+
+[Decode_options]
+
+[Features]
+	steps/make_mfcc.sh --nj --mfcc-config [data] [log] mfcc
+	steps/compute_cmvn_stats.sh [data] [log] mfcc
+
+[Decode]
+	steps/online/nnet2/extract_ivectors_online.sh --nj [data] [models]/ivector_extractor [data]/ivectors_hires
+	tmp=`mktemp -d -p [models]`
+	eval $timer steps/nnet3/decode.sh --nj --acwt 1.0 --post-decode-acwt 10.0 --skip-scoring true --online-ivector-dir [data]/ivectors_hires [graph] [data] $tmp
+	pid=$!
+	while kill -0 $pid 2>/dev/null; do
+		linesdone=$(cat $tmp/log/decode.*.log 2>/dev/null | grep "Log-like per frame for utterance" | wc -l)
+		local/progressbar.sh $linesdone $totallines 50 "NNet3 Decoding"  			
+		sleep 2
+	done
+	tail -1 $inter/time.log | awk '{printf( "NNet3 decoding completed in %d:%02d:%02d (CPU: %d:%02d:%02d), Memory used: %d MB                \n", int($1/3600), int($1%3600/60), int($1%3600%60), int(($2+$3)/3600), int(($2+$3)%3600/60), int(($2+$3)%3600%60), $4/1000) }'
+
+	mv -f $tmp [out]
+	
