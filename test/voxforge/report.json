@@ -1,260 +1,778 @@
 {
-  "statistics": {
-    "num_wavs": 10,
-    "num_words": 84,
-    "num_entities": 0,
-    "correct_transcriptions": 0,
-    "correct_intent_names": 0,
-    "correct_words": 75,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.8928571428571429,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 8.924291422180499
+  "expected": {
+    "nl-0435.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "de hoogte van de gevel is vijftien meter",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0432.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "dit handboek is vooral bestemd voor het wetenschappelijk onderwijs",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0436.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "de grote scandinavische sauna in de achtertuin was zonder vergunning gebouwd",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0441.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zes plus een is zeven",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0440.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zijn recente daden komen mij onvoldoende doordacht voor",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0437.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "deze bepaling stelt nadere eisen aan de ontbinding van een vaststellingsovereenkomst",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0438.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "kan een artiest ook auteursrecht hebben op een improvisatie",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0433.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "is het woord schouwburg een synoniem voor theater",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0439.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "de beste plaatsen vooraan waren voor de hoogwaardigheidsbekleders",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "nl-0434.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "de akoestiek van het amfitheater was overweldigend",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
-    "nl-0434.wav": {
-      "text": "de akoestiek van het amfitheater was overweldigend ",
+    "nl-0435.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002951622009277344,
-      "transcribe_seconds": 0.7453277111053467,
-      "wav_seconds": 8,
-      "likelihood": 2.0740573406219482,
+      "text": "de hoogte van de gevel is vijftien meter",
+      "raw_text": "de hoogte van de gevel is vijftien meter",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.5,
+      "transcribe_seconds": 10.819604729997081,
+      "speech_confidence": null,
+      "wav_name": "nl-0435.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "de  akoestiek van het amfitheater was overweldigend",
-        "actual": "de  akoestiek van het amfitheater was overweldigend",
-        "words": 7,
-        "correct": 7,
-        "errors": 0
-      }
-    },
-    "nl-0438.wav": {
-      "text": "kan in artiest ook auteursrecht hebben op in improvisatie ",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 3.170967102050781e-05,
-      "transcribe_seconds": 0.867283821105957,
-      "wav_seconds": 7.75,
-      "likelihood": 1.8747004270553589,
-      "word_error": {
-        "expected": "kan EEN artiest ook auteursrecht hebben op  EEN improvisatie",
-        "actual": "kan IN  artiest ook auteursrecht hebben op  IN  improvisatie",
-        "words": 9,
-        "correct": 7,
-        "errors": 2
-      }
-    },
-    "nl-0439.wav": {
-      "text": "de beste plaatsen vooraan waren voor de hoogwaardigheidsbekleders ",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001926422119140625,
-      "transcribe_seconds": 0.84413743019104,
-      "wav_seconds": 6.875,
-      "likelihood": 1.8302068710327148,
-      "word_error": {
-        "expected": "de  beste plaatsen vooraan waren voor de  hoogwaardigheidsbekleders",
-        "actual": "de  beste plaatsen vooraan waren voor de  hoogwaardigheidsbekleders",
+        "reference": [
+          "de",
+          "hoogte",
+          "van",
+          "de",
+          "gevel",
+          "is",
+          "vijftien",
+          "meter"
+        ],
+        "hypothesis": [
+          "de",
+          "hoogte",
+          "van",
+          "de",
+          "gevel",
+          "is",
+          "vijftien",
+          "meter"
+        ],
+        "differences": [
+          "de",
+          "hoogte",
+          "van",
+          "de",
+          "gevel",
+          "is",
+          "vijftien",
+          "meter"
+        ],
         "words": 8,
-        "correct": 8,
-        "errors": 0
-      }
-    },
-    "nl-0441.wav": {
-      "text": "zes plus één is zeven ",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00018978118896484375,
-      "transcribe_seconds": 0.5135829448699951,
-      "wav_seconds": 5.625,
-      "likelihood": 1.9034037590026855,
-      "word_error": {
-        "expected": "zes plus EEN   is  zeven",
-        "actual": "zes plus ééN is  zeven",
-        "words": 5,
-        "correct": 4,
-        "errors": 1
-      }
-    },
-    "nl-0433.wav": {
-      "text": "is het bewolkt de schouwburg in synoniem voor theater ",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001995563507080078,
-      "transcribe_seconds": 0.7631738185882568,
-      "wav_seconds": 6.875,
-      "likelihood": 1.8346717357635498,
-      "word_error": {
-        "expected": "is  het ***     WOORD schouwburg EEN synoniem voor theater",
-        "actual": "is  het BEWOLKT DE    schouwburg IN  synoniem voor theater",
-        "words": 8,
-        "correct": 6,
-        "errors": 3
-      }
-    },
-    "nl-0436.wav": {
-      "text": "die grote scandinavische sauna in de achtertuin was zonder vergunning gebouwd ",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00019097328186035156,
-      "transcribe_seconds": 1.1148061752319336,
-      "wav_seconds": 7.75,
-      "likelihood": 1.8257250785827637,
-      "word_error": {
-        "expected": "DE  grote scandinavische sauna in  de  achtertuin was zonder vergunning gebouwd",
-        "actual": "DIE grote scandinavische sauna in  de  achtertuin was zonder vergunning gebouwd",
-        "words": 11,
-        "correct": 10,
-        "errors": 1
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "nl-0432.wav": {
-      "text": "dit handboek is vooral bestemd voor het wetenschappelijk onderwijs ",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0003490447998046875,
-      "transcribe_seconds": 0.6846849918365479,
+      "text": "<unk> dit han boek is vooral bestemd voor het wetenschappelijk onderwijs",
+      "raw_text": "<unk> dit han boek is vooral bestemd voor het wetenschappelijk onderwijs",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6.75,
-      "likelihood": 1.9180610179901123,
+      "transcribe_seconds": 13.044882508998853,
+      "speech_confidence": null,
+      "wav_name": "nl-0432.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "dit handboek is  vooral bestemd voor het wetenschappelijk onderwijs",
-        "actual": "dit handboek is  vooral bestemd voor het wetenschappelijk onderwijs",
+        "reference": [
+          "dit",
+          "handboek",
+          "is",
+          "vooral",
+          "bestemd",
+          "voor",
+          "het",
+          "wetenschappelijk",
+          "onderwijs"
+        ],
+        "hypothesis": [
+          "<unk>",
+          "dit",
+          "han",
+          "boek",
+          "is",
+          "vooral",
+          "bestemd",
+          "voor",
+          "het",
+          "wetenschappelijk",
+          "onderwijs"
+        ],
+        "differences": [
+          "dit",
+          "+han",
+          "handboek:boek",
+          "is",
+          "vooral",
+          "bestemd",
+          "voor",
+          "het",
+          "wetenschappelijk",
+          "onderwijs"
+        ],
         "words": 9,
-        "correct": 9,
-        "errors": 0
+        "errors": 3,
+        "matches": 8,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.2222222222222222
       }
     },
-    "nl-0435.wav": {
-      "text": "de hoogte van de gevel is vijftien meter ",
+    "nl-0436.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00024628639221191406,
-      "transcribe_seconds": 0.6267726421356201,
-      "wav_seconds": 5.5,
-      "likelihood": 1.937933087348938,
+      "text": "tien geroeid in scandinavië cescau na in de achtertuin was zonder vergunning jumbo bouwt",
+      "raw_text": "tien geroeid in scandinavië cescau na in de achtertuin was zonder vergunning jumbo bouwt",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 7.75,
+      "transcribe_seconds": 16.770337263998954,
+      "speech_confidence": null,
+      "wav_name": "nl-0436.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "de  hoogte van de  gevel is  vijftien meter",
-        "actual": "de  hoogte van de  gevel is  vijftien meter",
-        "words": 8,
-        "correct": 8,
-        "errors": 0
+        "reference": [
+          "de",
+          "grote",
+          "scandinavische",
+          "sauna",
+          "in",
+          "de",
+          "achtertuin",
+          "was",
+          "zonder",
+          "vergunning",
+          "gebouwd"
+        ],
+        "hypothesis": [
+          "tien",
+          "geroeid",
+          "in",
+          "scandinavië",
+          "cescau",
+          "na",
+          "in",
+          "de",
+          "achtertuin",
+          "was",
+          "zonder",
+          "vergunning",
+          "jumbo",
+          "bouwt"
+        ],
+        "differences": [
+          "de:in",
+          "grote:scandinavië",
+          "scandinavische:cescau",
+          "sauna:na",
+          "in",
+          "de",
+          "achtertuin",
+          "was",
+          "zonder",
+          "vergunning",
+          "+jumbo",
+          "gebouwd:bouwt"
+        ],
+        "words": 11,
+        "errors": 8,
+        "matches": 6,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.5454545454545454
+      }
+    },
+    "nl-0441.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "<unk> zes plus één is zeven",
+      "raw_text": "<unk> zes plus één is zeven",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.625,
+      "transcribe_seconds": 12.479320608999842,
+      "speech_confidence": null,
+      "wav_name": "nl-0441.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "zes",
+          "plus",
+          "een",
+          "is",
+          "zeven"
+        ],
+        "hypothesis": [
+          "<unk>",
+          "zes",
+          "plus",
+          "één",
+          "is",
+          "zeven"
+        ],
+        "differences": [
+          "zes",
+          "plus",
+          "een:één",
+          "is",
+          "zeven"
+        ],
+        "words": 5,
+        "errors": 2,
+        "matches": 4,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.2
       }
     },
     "nl-0440.wav": {
-      "text": "zijn recente daden komen mij onvoldoende doordacht vroeg ",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 4.7206878662109375e-05,
-      "transcribe_seconds": 0.9293651580810547,
+      "text": "<unk> zijn recente dader komma mij onvoldoende doordacht voordroeg",
+      "raw_text": "<unk> zijn recente dader komma mij onvoldoende doordacht voordroeg",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6.75,
-      "likelihood": 1.8418693542480469,
+      "transcribe_seconds": 14.93724113600183,
+      "speech_confidence": null,
+      "wav_name": "nl-0440.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "zijn recente daden komen mij onvoldoende doordacht VOOR",
-        "actual": "zijn recente daden komen mij onvoldoende doordacht VROEG",
+        "reference": [
+          "zijn",
+          "recente",
+          "daden",
+          "komen",
+          "mij",
+          "onvoldoende",
+          "doordacht",
+          "voor"
+        ],
+        "hypothesis": [
+          "<unk>",
+          "zijn",
+          "recente",
+          "dader",
+          "komma",
+          "mij",
+          "onvoldoende",
+          "doordacht",
+          "voordroeg"
+        ],
+        "differences": [
+          "zijn",
+          "recente",
+          "daden:dader",
+          "komen:komma",
+          "mij",
+          "onvoldoende",
+          "doordacht",
+          "voor:voordroeg"
+        ],
         "words": 8,
-        "correct": 7,
-        "errors": 1
+        "errors": 4,
+        "matches": 5,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.375
       }
     },
     "nl-0437.wav": {
-      "text": "deze bepaling stel nadere eisen aan de ontbinding van in vaststellingsovereenkomst ",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00019669532775878906,
-      "transcribe_seconds": 1.0151324272155762,
+      "text": "deze bepaling stel nadere eisen aan de ontbinding van in vaststelling iets over rin komst",
+      "raw_text": "deze bepaling stel nadere eisen aan de ontbinding van in vaststelling iets over rin komst",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 8.75,
-      "likelihood": 1.8560457229614258,
+      "transcribe_seconds": 17.306187656002294,
+      "speech_confidence": null,
+      "wav_name": "nl-0437.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "deze bepaling STELT nadere eisen aan de  ontbinding van EEN vaststellingsovereenkomst",
-        "actual": "deze bepaling STEL  nadere eisen aan de  ontbinding van IN  vaststellingsovereenkomst",
+        "reference": [
+          "deze",
+          "bepaling",
+          "stelt",
+          "nadere",
+          "eisen",
+          "aan",
+          "de",
+          "ontbinding",
+          "van",
+          "een",
+          "vaststellingsovereenkomst"
+        ],
+        "hypothesis": [
+          "deze",
+          "bepaling",
+          "stel",
+          "nadere",
+          "eisen",
+          "aan",
+          "de",
+          "ontbinding",
+          "van",
+          "in",
+          "vaststelling",
+          "iets",
+          "over",
+          "rin",
+          "komst"
+        ],
+        "differences": [
+          "deze",
+          "bepaling",
+          "stelt:stel",
+          "nadere",
+          "eisen",
+          "aan",
+          "de",
+          "ontbinding",
+          "van",
+          "+in",
+          "+vaststelling",
+          "+iets",
+          "+over",
+          "een:rin",
+          "vaststellingsovereenkomst:komst"
+        ],
         "words": 11,
-        "correct": 9,
-        "errors": 2
+        "errors": 7,
+        "matches": 8,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 4,
+        "error_rate": 0.6363636363636364
+      }
+    },
+    "nl-0438.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "<unk> kan in artiest oek auteursrecht hebben hun op in improvisatie",
+      "raw_text": "<unk> kan in artiest oek auteursrecht hebben hun op in improvisatie",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 7.75,
+      "transcribe_seconds": 16.351757671000087,
+      "speech_confidence": null,
+      "wav_name": "nl-0438.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "kan",
+          "een",
+          "artiest",
+          "ook",
+          "auteursrecht",
+          "hebben",
+          "op",
+          "een",
+          "improvisatie"
+        ],
+        "hypothesis": [
+          "<unk>",
+          "kan",
+          "in",
+          "artiest",
+          "oek",
+          "auteursrecht",
+          "hebben",
+          "hun",
+          "op",
+          "in",
+          "improvisatie"
+        ],
+        "differences": [
+          "kan",
+          "een:in",
+          "artiest",
+          "ook:oek",
+          "auteursrecht",
+          "hebben",
+          "+hun",
+          "op",
+          "een:in",
+          "improvisatie"
+        ],
+        "words": 9,
+        "errors": 5,
+        "matches": 6,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.4444444444444444
+      }
+    },
+    "nl-0433.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "<unk> is het wolof de schoolbus rush in synoniem voor theater",
+      "raw_text": "<unk> is het wolof de schoolbus rush in synoniem voor theater",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.875,
+      "transcribe_seconds": 15.226753988998098,
+      "speech_confidence": null,
+      "wav_name": "nl-0433.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "is",
+          "het",
+          "woord",
+          "schouwburg",
+          "een",
+          "synoniem",
+          "voor",
+          "theater"
+        ],
+        "hypothesis": [
+          "<unk>",
+          "is",
+          "het",
+          "wolof",
+          "de",
+          "schoolbus",
+          "rush",
+          "in",
+          "synoniem",
+          "voor",
+          "theater"
+        ],
+        "differences": [
+          "is",
+          "het",
+          "+wolof",
+          "+de",
+          "woord:schoolbus",
+          "schouwburg:rush",
+          "een:in",
+          "synoniem",
+          "voor",
+          "theater"
+        ],
+        "words": 8,
+        "errors": 6,
+        "matches": 5,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 2,
+        "error_rate": 0.625
+      }
+    },
+    "nl-0439.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "<unk> de beste plaatsen voeg aan waar een voorbeelden hoogwaardigheidsbekleders",
+      "raw_text": "<unk> de beste plaatsen voeg aan waar een voorbeelden hoogwaardigheidsbekleders",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.875,
+      "transcribe_seconds": 15.114446417999716,
+      "speech_confidence": null,
+      "wav_name": "nl-0439.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "de",
+          "beste",
+          "plaatsen",
+          "vooraan",
+          "waren",
+          "voor",
+          "de",
+          "hoogwaardigheidsbekleders"
+        ],
+        "hypothesis": [
+          "<unk>",
+          "de",
+          "beste",
+          "plaatsen",
+          "voeg",
+          "aan",
+          "waar",
+          "een",
+          "voorbeelden",
+          "hoogwaardigheidsbekleders"
+        ],
+        "differences": [
+          "de",
+          "beste",
+          "plaatsen",
+          "+voeg",
+          "vooraan:aan",
+          "waren:waar",
+          "voor:een",
+          "de:voorbeelden",
+          "hoogwaardigheidsbekleders"
+        ],
+        "words": 8,
+        "errors": 6,
+        "matches": 4,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.625
+      }
+    },
+    "nl-0434.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "de akoestiek van het amfitheater landse over veel wel de gerend",
+      "raw_text": "de akoestiek van het amfitheater landse over veel wel de gerend",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 8,
+      "transcribe_seconds": 16.136125480003102,
+      "speech_confidence": null,
+      "wav_name": "nl-0434.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "de",
+          "akoestiek",
+          "van",
+          "het",
+          "amfitheater",
+          "was",
+          "overweldigend"
+        ],
+        "hypothesis": [
+          "de",
+          "akoestiek",
+          "van",
+          "het",
+          "amfitheater",
+          "landse",
+          "over",
+          "veel",
+          "wel",
+          "de",
+          "gerend"
+        ],
+        "differences": [
+          "de",
+          "akoestiek",
+          "van",
+          "het",
+          "amfitheater",
+          "+landse",
+          "+over",
+          "+veel",
+          "+wel",
+          "was:de",
+          "overweldigend:gerend"
+        ],
+        "words": 7,
+        "errors": 6,
+        "matches": 5,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 4,
+        "error_rate": 0.8571428571428571
       }
     }
   },
-  "expected": {
-    "nl-0434.wav": {
-      "text": "de akoestiek van het amfitheater was overweldigend"
-    },
-    "nl-0438.wav": {
-      "text": "kan een artiest ook auteursrecht hebben op een improvisatie"
-    },
-    "nl-0439.wav": {
-      "text": "de beste plaatsen vooraan waren voor de hoogwaardigheidsbekleders"
-    },
-    "nl-0441.wav": {
-      "text": "zes plus een is zeven"
-    },
-    "nl-0433.wav": {
-      "text": "is het woord schouwburg een synoniem voor theater"
-    },
-    "nl-0436.wav": {
-      "text": "de grote scandinavische sauna in de achtertuin was zonder vergunning gebouwd"
-    },
-    "nl-0432.wav": {
-      "text": "dit handboek is vooral bestemd voor het wetenschappelijk onderwijs"
-    },
-    "nl-0435.wav": {
-      "text": "de hoogte van de gevel is vijftien meter"
-    },
-    "nl-0440.wav": {
-      "text": "zijn recente daden komen mij onvoldoende doordacht voor"
-    },
-    "nl-0437.wav": {
-      "text": "deze bepaling stelt nadere eisen aan de ontbinding van een vaststellingsovereenkomst"
-    }
-  }
+  "num_wavs": 10,
+  "num_words": 84,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 1,
+  "correct_intent_names": 0,
+  "correct_words": 59,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.7023809523809523,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 0.47722500280770586
 }
