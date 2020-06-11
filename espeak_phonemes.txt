@@ -1,7 +1,8 @@
+@ @
 A A
 AU VU
 E E
-E2 E
+E2 E:
 EI EI
 EU Y:
 G Q
@@ -11,13 +12,13 @@ O O
 S S
 U 8
 UI Wy
-Z j
+Z Z
 a a:
 b b
 d d
 e e:
 f f
-g k
+g g
 h h
 i i
 j j

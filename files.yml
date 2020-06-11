@@ -184,6 +184,12 @@ mixed-language-model:
     file-name: base_language_model.fst
     sha256: 17b275336aecc3cf4a27edf2c83bab515d38c11d39c79eec55d0c16bf68fe2df
 
+# Files needed for text to speech
+text-to-speech:
+  espeak_phonemes.txt:
+    bytes: 170
+    sha256: 40182b4577eec53f0b1ae8ac6a801f62f3e7c34cfba41bd1e5d019a764c82e00
+
 # Sample sentences, etc.
 examples:
   custom_words.txt:
