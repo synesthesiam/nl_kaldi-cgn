@@ -19,6 +19,7 @@ training:
   acoustic-model-type: "kaldi"
   kaldi:
     model-type: "nnet3"
+    spn_phone: "[SPN]"
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
     - !env "${profile_dir}/base_language_model.txt"
